@@ -2,26 +2,26 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "Liftoff Prep - An Ai Mock Interviewer",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Liftoff Prep - An Ai Mock Interviewer",
     description:
       "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "https://www.ttnews.com/sites/default/files/styles/article_full_width_image/public/2023-09/iTECH-Dysart-1200.jpg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Liftoff Prep - An Ai Mock Interviewer",
     description:
       "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
-    creator: "@tmeyer_me",
+    images: ["https://www.ttnews.com/sites/default/files/styles/article_full_width_image/public/2023-09/iTECH-Dysart-1200.jpg"],
+    creator: "@aiml krct",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL("https://ai-mock-interview-aiml.vercel.app/"),
   themeColor: "#FFF",
 };
 
